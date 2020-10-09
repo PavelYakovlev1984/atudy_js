@@ -1,1 +1,1 @@
-# atudy_js
+# study_js
