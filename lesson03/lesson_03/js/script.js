@@ -1,12 +1,5 @@
 
-let money =45000;
 
-let income = 'freelance';
-
- let addExpenses = 'Rent, Meal, Fuel';  
- let deposit = false;
- let mission = 600000;
- let period =12;
   console.log(money);
   console.log(income); 
   console.log(deposit); 
