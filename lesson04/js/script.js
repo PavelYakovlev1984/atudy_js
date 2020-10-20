@@ -12,37 +12,17 @@ let expenses1 = prompt('“Введите обязательную статью 
   console.log(money);
   console.log(income); 
   console.log(deposit); 
-
   console.log(typeof money);
   console.log(typeof income);
   console.log(typeof deposit);
 
-
   console.log(addExpenses.length);
-
 
   console.log('"Период равен'+' '+ period +' '+'месяцев” и “Цель заработать' +' '+ mission + ' '+'рублей"');
 
 console.log(addExpenses.toLowerCase());
 console.log(addExpenses.split(' '));
 
-
-
-
-
-
- 
-
-
- 
-
- 
-
- 
-
-
- 
- 
  let budgetMonth = money - addExpenses;
 
 console.log('Бюджет на месяц'+ budgetMonth);
@@ -55,7 +35,6 @@ console.log('Бюджет на месяц'+ missionPeriod);
 let MPeriod = Math.ceil(missionPeriod);
 
 console.log('Цель будет достигнута за:'+ missionPeriod + 'месяца');
-
 
 function getAccumulatedMonth(){
 return money - addExpenses;
@@ -80,25 +59,15 @@ if(budgetDay>=1200){
 }
 }
 
-
 function getExpensesMonth(amount1, damount2){
   return amount1 + damount2;
   
 }
 
-
-
-
-
 function getTargetMonth(){
   return  mission / accumulatedMonth;
 }
 
- 
-
-
 console.log(budgetDay);
-
-
 
 getStatusIncome();
