@@ -2,7 +2,7 @@
 let money = prompt('“Ваш месячный доход?”');
 let income;
 let mission = 600000;
-let deposit = Boolean(prompt('“Есть ли у вас депозит в банке?”'));
+let deposit = confirm('“Есть ли у вас депозит в банке?”');
 let addExpenses = prompt('“Перечислите возможные расходы за рассчитываемый период через запятую”');
 let period;
 let expenses1 = prompt('“Введите обязательную статью расходов?”');
@@ -61,7 +61,6 @@ if(budgetDay>=1200){
 
 function getExpensesMonth(amount1, damount2){
   return amount1 + damount2;
-  
 }
 
 function getTargetMonth(){
